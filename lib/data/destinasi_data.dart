@@ -1,0 +1,58 @@
+import '../models/destinasi.dart';
+
+const List<Destinasi> daftarDestinasiData = [
+  Destinasi(
+    id: 'danau-toba',
+    nama: 'Danau Toba',
+    lokasi: 'Kab. Samosir & Sekitarnya',
+    deskripsi: 'Danau vulkanik terbesar di dunia dengan pulau Samosir di tengahnya. Menawarkan pemandangan bukit hijau, air danau biru jernih, dan kekayaan budaya Batak.',
+    imageUrl: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80',
+    rating: 4.9,
+    jamBuka: '24 Jam',
+  ),
+  Destinasi(
+    id: 'berastagi',
+    nama: 'Berastagi & Gunung Sibayak',
+    lokasi: 'Kab. Karo',
+    deskripsi: 'Daerah pegunungan berhawa sejuk di dataran tinggi Karo. Terkenal dengan kebun buah, pasar buah segar, serta pendakian Gunung Sibayak.',
+    imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    rating: 4.7,
+    jamBuka: '06.00 - 18.00 WIB',
+  ),
+  Destinasi(
+    id: 'bukit-lawang',
+    nama: 'Bukit Lawang',
+    lokasi: 'Kab. Langkat',
+    deskripsi: 'Pintu gerbang menuju Taman Nasional Gunung Leuser. Tempat terbaik untuk pengalaman jungle trekking dan melihat Orangutan Sumatra di habitat aslinya.',
+    imageUrl: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80',
+    rating: 4.8,
+    jamBuka: '07.00 - 17.00 WIB',
+  ),
+  Destinasi(
+    id: 'istana-maimun',
+    nama: 'Istana Maimun',
+    lokasi: 'Kota Medan',
+    deskripsi: 'Ikon sejarah Kota Medan dengan arsitektur megah berunsur Melayu, Islam, Spanyol, dan India. Dibangun oleh Kesultanan Deli.',
+    imageUrl: 'https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80',
+    rating: 4.6,
+    jamBuka: '08.00 - 17.00 WIB',
+  ),
+  Destinasi(
+    id: 'air-terjun-sipiso-piso',
+    nama: 'Air Terjun Sipiso-piso',
+    lokasi: 'Kab. Karo',
+    deskripsi: 'Air terjun menakjubkan setinggi 120 meter yang jatuh lurus ke jurang mengarah ke tepi Danau Toba.',
+    imageUrl: 'https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=800&q=80',
+    rating: 4.8,
+    jamBuka: '08.00 - 18.00 WIB',
+  ),
+  Destinasi(
+    id: 'pulau-nias',
+    nama: 'Pulau Nias & Sorake',
+    lokasi: 'Kab. Nias Selatan',
+    deskripsi: 'Surga selancar internasional dengan ombak kelas dunia serta kebudayaan unik seperti Lompat Batu (Hombo Batu).',
+    imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+    rating: 4.9,
+    jamBuka: '24 Jam',
+  ),
+];
